@@ -1,0 +1,238 @@
+object(SimpleXMLElement)[3]
+  public '@attributes' => 
+    array (size=1)
+      'type' => string 'array' (length=5)
+  public 'match' => 
+    array (size=5)
+      0 => 
+        object(SimpleXMLElement)[4]
+          public 'id' => string '94829982' (length=8)
+          public 'tournament-id' => string '3719546' (length=7)
+          public 'state' => string 'complete' (length=8)
+          public 'player1-id' => string '59687936' (length=8)
+          public 'player2-id' => string '59688091' (length=8)
+          public 'player1-prereq-match-id' => 
+            object(SimpleXMLElement)[9]
+              ...
+          public 'player2-prereq-match-id' => 
+            object(SimpleXMLElement)[10]
+              ...
+          public 'player1-is-prereq-match-loser' => string 'false' (length=5)
+          public 'player2-is-prereq-match-loser' => string 'false' (length=5)
+          public 'winner-id' => string '59688091' (length=8)
+          public 'loser-id' => string '59687936' (length=8)
+          public 'started-at' => string '2017-08-08T09:07:13-05:00' (length=25)
+          public 'created-at' => string '2017-08-08T09:07:13-05:00' (length=25)
+          public 'updated-at' => string '2017-08-08T09:11:22-05:00' (length=25)
+          public 'identifier' => string 'A' (length=1)
+          public 'has-attachment' => string 'false' (length=5)
+          public 'round' => string '1' (length=1)
+          public 'player1-votes' => 
+            object(SimpleXMLElement)[11]
+              ...
+          public 'player2-votes' => 
+            object(SimpleXMLElement)[12]
+              ...
+          public 'group-id' => 
+            object(SimpleXMLElement)[13]
+              ...
+          public 'attachment-count' => 
+            object(SimpleXMLElement)[14]
+              ...
+          public 'scheduled-time' => 
+            object(SimpleXMLElement)[15]
+              ...
+          public 'location' => 
+            object(SimpleXMLElement)[16]
+              ...
+          public 'underway-at' => string '2017-08-08T09:10:54-05:00' (length=25)
+          public 'optional' => string 'false' (length=5)
+          public 'rushb-id' => 
+            object(SimpleXMLElement)[17]
+              ...
+          public 'completed-at' => string '2017-08-08T09:11:23-05:00' (length=25)
+          public 'suggested-play-order' => string '1' (length=1)
+          public 'prerequisite-match-ids-csv' => 
+            object(SimpleXMLElement)[18]
+              ...
+          public 'scores-csv' => string '1-2' (length=3)
+      1 => 
+        object(SimpleXMLElement)[5]
+          public 'id' => string '94829983' (length=8)
+          public 'tournament-id' => string '3719546' (length=7)
+          public 'state' => string 'complete' (length=8)
+          public 'player1-id' => string '59687935' (length=8)
+          public 'player2-id' => string '59688091' (length=8)
+          public 'player1-prereq-match-id' => 
+            object(SimpleXMLElement)[19]
+              ...
+          public 'player2-prereq-match-id' => string '94829982' (length=8)
+          public 'player1-is-prereq-match-loser' => string 'false' (length=5)
+          public 'player2-is-prereq-match-loser' => string 'false' (length=5)
+          public 'winner-id' => string '59688091' (length=8)
+          public 'loser-id' => string '59687935' (length=8)
+          public 'started-at' => string '2017-08-08T09:11:22-05:00' (length=25)
+          public 'created-at' => string '2017-08-08T09:07:13-05:00' (length=25)
+          public 'updated-at' => string '2017-08-08T09:11:52-05:00' (length=25)
+          public 'identifier' => string 'B' (length=1)
+          public 'has-attachment' => string 'false' (length=5)
+          public 'round' => string '2' (length=1)
+          public 'player1-votes' => 
+            object(SimpleXMLElement)[20]
+              ...
+          public 'player2-votes' => 
+            object(SimpleXMLElement)[21]
+              ...
+          public 'group-id' => 
+            object(SimpleXMLElement)[22]
+              ...
+          public 'attachment-count' => 
+            object(SimpleXMLElement)[23]
+              ...
+          public 'scheduled-time' => 
+            object(SimpleXMLElement)[24]
+              ...
+          public 'location' => 
+            object(SimpleXMLElement)[25]
+              ...
+          public 'underway-at' => string '2017-08-08T09:11:36-05:00' (length=25)
+          public 'optional' => string 'false' (length=5)
+          public 'rushb-id' => 
+            object(SimpleXMLElement)[26]
+              ...
+          public 'completed-at' => string '2017-08-08T09:11:53-05:00' (length=25)
+          public 'suggested-play-order' => string '2' (length=1)
+          public 'prerequisite-match-ids-csv' => string '94829982' (length=8)
+          public 'scores-csv' => string '1-3' (length=3)
+      2 => 
+        object(SimpleXMLElement)[6]
+          public 'id' => string '94829984' (length=8)
+          public 'tournament-id' => string '3719546' (length=7)
+          public 'state' => string 'complete' (length=8)
+          public 'player1-id' => string '59687935' (length=8)
+          public 'player2-id' => string '59687936' (length=8)
+          public 'player1-prereq-match-id' => string '94829983' (length=8)
+          public 'player2-prereq-match-id' => string '94829982' (length=8)
+          public 'player1-is-prereq-match-loser' => string 'true' (length=4)
+          public 'player2-is-prereq-match-loser' => string 'true' (length=4)
+          public 'winner-id' => string '59687935' (length=8)
+          public 'loser-id' => string '59687936' (length=8)
+          public 'started-at' => string '2017-08-08T09:11:52-05:00' (length=25)
+          public 'created-at' => string '2017-08-08T09:07:13-05:00' (length=25)
+          public 'updated-at' => string '2017-08-08T09:12:19-05:00' (length=25)
+          public 'identifier' => string 'E' (length=1)
+          public 'has-attachment' => string 'false' (length=5)
+          public 'round' => string '-1' (length=2)
+          public 'player1-votes' => 
+            object(SimpleXMLElement)[27]
+              ...
+          public 'player2-votes' => 
+            object(SimpleXMLElement)[28]
+              ...
+          public 'group-id' => 
+            object(SimpleXMLElement)[29]
+              ...
+          public 'attachment-count' => 
+            object(SimpleXMLElement)[30]
+              ...
+          public 'scheduled-time' => 
+            object(SimpleXMLElement)[31]
+              ...
+          public 'location' => 
+            object(SimpleXMLElement)[32]
+              ...
+          public 'underway-at' => string '2017-08-08T09:12:03-05:00' (length=25)
+          public 'optional' => string 'false' (length=5)
+          public 'rushb-id' => 
+            object(SimpleXMLElement)[33]
+              ...
+          public 'completed-at' => string '2017-08-08T09:12:19-05:00' (length=25)
+          public 'suggested-play-order' => string '3' (length=1)
+          public 'prerequisite-match-ids-csv' => string '94829983,94829982' (length=17)
+          public 'scores-csv' => string '2-1' (length=3)
+      3 => 
+        object(SimpleXMLElement)[7]
+          public 'id' => string '94829985' (length=8)
+          public 'tournament-id' => string '3719546' (length=7)
+          public 'state' => string 'complete' (length=8)
+          public 'player1-id' => string '59688091' (length=8)
+          public 'player2-id' => string '59687935' (length=8)
+          public 'player1-prereq-match-id' => string '94829983' (length=8)
+          public 'player2-prereq-match-id' => string '94829984' (length=8)
+          public 'player1-is-prereq-match-loser' => string 'false' (length=5)
+          public 'player2-is-prereq-match-loser' => string 'false' (length=5)
+          public 'winner-id' => string '59687935' (length=8)
+          public 'loser-id' => string '59688091' (length=8)
+          public 'started-at' => string '2017-08-08T09:12:19-05:00' (length=25)
+          public 'created-at' => string '2017-08-08T09:07:13-05:00' (length=25)
+          public 'updated-at' => string '2017-08-21T04:25:09-05:00' (length=25)
+          public 'identifier' => string 'C' (length=1)
+          public 'has-attachment' => string 'false' (length=5)
+          public 'round' => string '3' (length=1)
+          public 'player1-votes' => 
+            object(SimpleXMLElement)[34]
+              ...
+          public 'player2-votes' => 
+            object(SimpleXMLElement)[35]
+              ...
+          public 'group-id' => 
+            object(SimpleXMLElement)[36]
+              ...
+          public 'attachment-count' => 
+            object(SimpleXMLElement)[37]
+              ...
+          public 'scheduled-time' => string '2017-08-21T04:25:00-05:00' (length=25)
+          public 'location' => string 'Luanda' (length=6)
+          public 'underway-at' => string '2017-08-08T09:12:27-05:00' (length=25)
+          public 'optional' => string 'false' (length=5)
+          public 'rushb-id' => 
+            object(SimpleXMLElement)[38]
+              ...
+          public 'completed-at' => string '2017-08-08T09:12:46-05:00' (length=25)
+          public 'suggested-play-order' => string '4' (length=1)
+          public 'prerequisite-match-ids-csv' => string '94829983,94829984' (length=17)
+          public 'scores-csv' => string '1-3' (length=3)
+      4 => 
+        object(SimpleXMLElement)[8]
+          public 'id' => string '94829986' (length=8)
+          public 'tournament-id' => string '3719546' (length=7)
+          public 'state' => string 'complete' (length=8)
+          public 'player1-id' => string '59687935' (length=8)
+          public 'player2-id' => string '59688091' (length=8)
+          public 'player1-prereq-match-id' => string '94829985' (length=8)
+          public 'player2-prereq-match-id' => string '94829985' (length=8)
+          public 'player1-is-prereq-match-loser' => string 'false' (length=5)
+          public 'player2-is-prereq-match-loser' => string 'true' (length=4)
+          public 'winner-id' => string '59688091' (length=8)
+          public 'loser-id' => string '59687935' (length=8)
+          public 'started-at' => string '2017-08-08T09:12:45-05:00' (length=25)
+          public 'created-at' => string '2017-08-08T09:07:13-05:00' (length=25)
+          public 'updated-at' => string '2017-08-08T09:17:03-05:00' (length=25)
+          public 'identifier' => string 'D' (length=1)
+          public 'has-attachment' => string 'false' (length=5)
+          public 'round' => string '3' (length=1)
+          public 'player1-votes' => 
+            object(SimpleXMLElement)[39]
+              ...
+          public 'player2-votes' => 
+            object(SimpleXMLElement)[40]
+              ...
+          public 'group-id' => 
+            object(SimpleXMLElement)[41]
+              ...
+          public 'attachment-count' => 
+            object(SimpleXMLElement)[42]
+              ...
+          public 'scheduled-time' => string '2017-08-08T09:20:00-05:00' (length=25)
+          public 'location' => string 'Luanda' (length=6)
+          public 'underway-at' => 
+            object(SimpleXMLElement)[43]
+              ...
+          public 'optional' => string 'false' (length=5)
+          public 'rushb-id' => 
+            object(SimpleXMLElement)[44]
+              ...
+          public 'completed-at' => string '2017-08-08T09:14:50-05:00' (length=25)
+          public 'suggested-play-order' => string '5' (length=1)
+          public 'prerequisite-match-ids-csv' => string '94829985' (length=8)
+          public 'scores-csv' => string '6-4' (length=3)

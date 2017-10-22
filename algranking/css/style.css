@@ -1,0 +1,153 @@
+
+
+body{
+
+    margin:0;
+    padding:0;
+    background-color:#181717;
+    color:#FFF;
+    font-family: 'Cabin', sans-serif;
+}
+
+#header{
+
+    background-color: #F2C53D;
+    color:#181717;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    padding-top:10px;
+    padding-bottom: 0;
+    background-image: url('scorpionHeader2.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+
+
+
+#nav{
+
+    height:50px;
+    background-color: #080808;
+}
+
+.navList{
+
+    list-style: none;
+    
+}
+
+.navList li{
+
+    float: left;
+    margin-right:30px;
+}
+
+.navList li a{
+
+    color: #F2C53D;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+.navList li a:hover{
+
+    color: #FFF;
+}
+
+.submenu{
+    
+    background-color: #181717;
+    border-bottom: 2px solid #FFF;
+    border-top: 2px solid #FFF;
+    padding: 100px;
+   
+}
+
+
+
+h1,h2,h3{
+    
+    color:#F2C53D;
+}
+
+#content{
+    
+   /* background-image: url('sonya.png');*/
+    background-position:0px 10px;;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     margin-top: 20px;
+}
+
+.playerBox{
+
+    position: relative;
+    height: 500px;
+    margin-bottom: 10px;
+    border:1px solid #F2C53D;
+    background-color: #0F0F0F;
+    color: #FFF;
+  
+    font-family: 'Share Tech', sans-serif;
+    padding: 5px;
+    
+}
+
+#calendar{
+    
+    background-color: #080808;
+   border-radius: 10px;
+}
+#calendar ul{
+    
+    list-style-type: square;
+}
+
+.title{
+    
+    color: #F2C53D;
+    font-size: 1.5em;
+}
+
+
+
+.playerBox .Number{
+
+    color: #181717;
+    background-color: #FFF;
+    padding: 10px;
+   
+
+}
+
+.rank{
+    
+    background-color: #F2C53D !important;
+}
+
+.playerBox table tr td:first-child{
+
+    vertical-align:text-top;
+}
+.playerBox table tr  td:first-child{
+
+    vertical-align:text-top;
+}
+
+.playerBox ul{
+
+    list-style: none;
+}
+
+.rankPosition{
+    
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
